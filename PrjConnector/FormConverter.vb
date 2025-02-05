@@ -1,9 +1,15 @@
 ﻿Public Class FormConverter
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+    Private Const KM2MI = 1.609344
+    Private Sub BottonConvert_Click(sender As Object, e As EventArgs) Handles BottonConvert.Click
+        Try
+            TXTMIL.Text = TXTKM.Text * KM2MI
+        Catch ex As Exception
+            TXTMIL.Text = "Viga "
+        End Try
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
+    Private Sub FormConverter_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        TXTMIL.Enabled = False
     End Sub
 End Class

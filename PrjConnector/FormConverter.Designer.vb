@@ -22,35 +22,35 @@ Partial Class FormConverter
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TXTKM = New System.Windows.Forms.TextBox()
+        Me.TXTMIL = New System.Windows.Forms.TextBox()
+        Me.BottonConvert = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'TXTKM
         '
-        Me.TextBox1.Location = New System.Drawing.Point(249, 300)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(184, 26)
-        Me.TextBox1.TabIndex = 0
+        Me.TXTKM.Location = New System.Drawing.Point(249, 300)
+        Me.TXTKM.Name = "TXTKM"
+        Me.TXTKM.Size = New System.Drawing.Size(184, 26)
+        Me.TXTKM.TabIndex = 0
         '
-        'TextBox2
+        'TXTMIL
         '
-        Me.TextBox2.Location = New System.Drawing.Point(249, 383)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(184, 26)
-        Me.TextBox2.TabIndex = 1
+        Me.TXTMIL.Location = New System.Drawing.Point(249, 383)
+        Me.TXTMIL.Name = "TXTMIL"
+        Me.TXTMIL.Size = New System.Drawing.Size(184, 26)
+        Me.TXTMIL.TabIndex = 1
         '
-        'Button1
+        'BottonConvert
         '
-        Me.Button1.Location = New System.Drawing.Point(298, 332)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(82, 33)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Teisenda"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BottonConvert.Location = New System.Drawing.Point(298, 332)
+        Me.BottonConvert.Name = "BottonConvert"
+        Me.BottonConvert.Size = New System.Drawing.Size(82, 33)
+        Me.BottonConvert.TabIndex = 2
+        Me.BottonConvert.Text = "Teisenda"
+        Me.BottonConvert.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -77,9 +77,9 @@ Partial Class FormConverter
         Me.ClientSize = New System.Drawing.Size(1161, 1034)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.BottonConvert)
+        Me.Controls.Add(Me.TXTMIL)
+        Me.Controls.Add(Me.TXTKM)
         Me.Name = "FormConverter"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -87,9 +87,9 @@ Partial Class FormConverter
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TXTKM As TextBox
+    Friend WithEvents TXTMIL As TextBox
+    Friend WithEvents BottonConvert As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
 End Class
